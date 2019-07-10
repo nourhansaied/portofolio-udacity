@@ -94,7 +94,6 @@ body,
     max-width: 100%;
     display: flex;
     margin-bottom: 20px;
-    justify-content: center
 }
 
 @media (min-width: 769px) {
@@ -107,6 +106,7 @@ body,
     max-width: 100%;
     width: 40%;
     margin-right: 1rem;
+    
 }
 
 .feature .col-3 .article-content {
@@ -118,7 +118,11 @@ body,
         padding-top: 5rem;
     }
 }
-
+@media (min-wdth: 575px) and (max-width: 768px) {
+    .feature .col-3 img {
+        width: 60%;
+    }
+}
 @media (min-width: 769px) {
     .feature .col-3 .article-content {
         padding-top: 0;
@@ -129,6 +133,7 @@ body,
     .feature .col-3 img {
         width: 100%;
         margin: auto;
+        margin-bottom: 1rem;
     }
 }
 
